@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "start": "lscpu",
     "src:clean": "rimraf dist",
     "src:lint": "npm run eslint",
     "src:lint:fix": "npm run eslint -- --fix",
